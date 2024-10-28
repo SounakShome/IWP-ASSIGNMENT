@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation'
 export default function Page() {
 
     const router = useRouter();
-
     useEffect(() => {
         if (!localStorage.getItem("token")) {
             router.push("/login")
