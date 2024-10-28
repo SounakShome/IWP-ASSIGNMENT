@@ -17,7 +17,7 @@ export default function Products({ products, type }) {
                             <div key={products[product]._id} className="lg:w-1/4 md:w-1/2 p-4 m-auto w-full">
                                 <Link href={`/products/${products[product].slug}`}>
                                     <div className="block rounded overflow-hidden">
-                                        <Image width={0} height={0} style={{ width: '50%', height: '50%' }} sizes='50vw' alt="ecommerce" className="m:h-[36vh] h-[30vh] m-auto" src="https://m.media-amazon.com/images/I/713n+TxyfCL._SY879_.jpg" />
+                                        <Image width={0} height={0} style={{ width: '50%', height: '50%' }} sizes='50vw' alt="ecommerce" className="m:h-[36vh] h-[30vh] m-auto" src="https://m.media-amazon.com/images/I/81+3g00XzmL._SY741_.jpg" />
                                     </div>
                                     <div className="mt-4">
                                         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Stickers</h3>
